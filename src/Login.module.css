@@ -1,0 +1,36 @@
+.card_signup{
+    max-width: 348px;
+    height: auto;
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 35px;
+    padding-bottom: 20px;
+    background-color: #fff;
+  }
+  .card_signup form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    padding: 6px;
+  }
+  .card_signup form .form_field{
+    padding: 8px 4px;
+    border: none;
+    border-bottom-color: currentcolor;
+    border-bottom-style: none;
+    border-bottom-width: medium;
+    border-bottom: 1px solid gray;
+    outline: none;
+  }
+  .form_btn{
+    border: navajowhite;
+    padding: 10px;
+    width: 144px;
+    text-align: center;
+    background-color: #19b92b;
+    border-radius: 4px;
+    color: #fff;
+    align-self: center;
+  }
